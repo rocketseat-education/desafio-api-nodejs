@@ -1,0 +1,9 @@
+node_modules
+.git
+.env
+.env.test
+coverage
+*.log
+*.test.ts
+vitest.config.ts
+requisicoes.http
