@@ -1,8 +1,9 @@
 POST http://localhost:3333/courses
 Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJlOTEzMjkyMC0wYmNhLTQ1NjEtOGQzMC0wN2IxOTc4Yzk5Y2MiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTc1NTIxNDAwNH0.NshpGUH8kPUSmZJOz2DqhyYW0EOiA-HzYHnikz_PXaU
 
 {
-  "title": "Curso de Cobol"
+  "title": "Curso de React"
 }
 
 ###
@@ -11,4 +12,15 @@ GET http://localhost:3333/courses?orderBy=title
 
 ###
 
-GET http://localhost:3333/courses/ed08672b-d8cd-473c-b6fd-3b8c9ccb457d
+GET http://localhost:3333/courses/624393cf-9117-4b26-a5d3-fb874a8ec629
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJlOTEzMjkyMC0wYmNhLTQ1NjEtOGQzMC0wN2IxOTc4Yzk5Y2MiLCJyb2xlIjoic3R1ZGVudCIsImlhdCI6MTc1NTIxMzEwN30.oLv9EnuNBZi6jOii-n-rUPahGnjO2mLAqXsW0c5H_5E
+
+###
+
+POST http://localhost:3333/sessions
+Content-Type: application/json
+
+{
+  "email": "Daniel81@yahoo.com",
+  "password": "123456"
+}
