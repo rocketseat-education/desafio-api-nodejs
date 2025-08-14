@@ -15,6 +15,34 @@
       "when": 1755039781603,
       "tag": "0001_absurd_nighthawk",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1755125030631,
+      "tag": "0002_mixed_gressill",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1755125129746,
+      "tag": "0003_stiff_rhino",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1755125854003,
+      "tag": "0004_safe_supernaut",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1755126256042,
+      "tag": "0005_blue_sabra",
+      "breakpoints": true
     }
   ]
 }
